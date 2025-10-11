@@ -1,0 +1,32 @@
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "start": "vite",
+    "test:e2e": "playwright test -c ./playwright/playwright.config.ts",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@endform/sdk": "workspace:*",
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "catalog:playwright",
+    "@endform/config": "workspace:*",
+    "@playwright/experimental-ct-react": "catalog:playwright",
+    "@playwright/test": "catalog:playwright",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "@vitejs/plugin-react": "catalog:",
+    "endform-proxy-network": "0.0.7",
+    "playwright": "catalog:playwright",
+    "typescript": "catalog:",
+    "vite": "catalog:",
+    "vitest": "catalog:"
+  }
+}

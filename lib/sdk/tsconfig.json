@@ -1,0 +1,10 @@
+{
+  "extends": "@endform/config/tsconfig.json",
+  "compilerOptions": {
+    "isolatedModules": true,
+    "types": ["vitest/globals"],
+    "allowImportingTsExtensions": true,
+    "rootDir": "."
+  },
+  "exclude": ["node_modules", "release.config.cjs"]
+}

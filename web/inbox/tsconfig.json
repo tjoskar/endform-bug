@@ -1,0 +1,10 @@
+{
+  "extends": "@endform/config/tsconfig.json",
+  "compilerOptions": {
+    "incremental": true,
+  },
+  "exclude": [
+    "node_modules",
+    "scripts",
+  ]
+}

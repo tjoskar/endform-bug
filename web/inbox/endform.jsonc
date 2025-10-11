@@ -1,0 +1,5 @@
+{
+  "proxyNetworkHosts": [
+    "<loopback>"
+  ]
+}
