@@ -1,5 +1,8 @@
 {
   "proxyNetworkHosts": [
-    "<loopback>"
+    "<loopback>",
+    "localhost:3001",
+    "127.0.0.1:3001",
+    "localhost:3001"
   ]
 }

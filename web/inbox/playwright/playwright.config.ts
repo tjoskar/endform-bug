@@ -2,9 +2,9 @@ import type { PlaywrightTestConfig } from "@playwright/test";
 import { generateConfig } from "./playwright-shared.config";
 
 const config: PlaywrightTestConfig = generateConfig(".spec.ts", {
-  timeout: 45_000, // 45 seconds
+  timeout: 45_000,
   expect: {
-    timeout: 10_000, // 10 seconds
+    timeout: 10_000,
   },
   use: {
     baseURL: "http://localhost:1337",
